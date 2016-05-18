@@ -14,7 +14,8 @@ for row in ws.range("%s%s:%s%s"%(RESOURCE, start, RESOURCE, end)):
 wbo = load_workbook("ECWSResourcesOnline.xlsx") 
 wso = wbo.active
 
-TITLE = "A" 
+TITLE = "A"
+# comment for reasons 
 titles = []
 starto = 2
 endo = wso.get_highest_row()
